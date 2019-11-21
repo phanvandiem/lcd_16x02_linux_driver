@@ -12,7 +12,11 @@ Driver is written on the Raspberry Pi 3 B, the kernel version 4.19.75-v7+
 | void lcd_init(void) | Init LCD, set default configure (display + cursor + blink on) |
 | void lcd_clear_display(void) | Clear display and set cursor to home position |
 | void lcd_put_char(char c) | Display character at current cursor position |
-| void lcd_put_string(const char *s) | Display string at current cursor position |
+| Plugin | README |
+| ------ | ------ |
+| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| GitHub | [plugins/github/README.md][PlGh] |
+| Google Drive | [plugins/googledrive/README.md][PlGd] |
 | OneDrive | [plugins/onedrive/README.md][PlOd] |
 | Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
